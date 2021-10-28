@@ -32,7 +32,7 @@ class App extends Component {
 
     return (
       <div className="App">
-        <h1>Monster Relodex</h1>
+        <h1>Monster Rolodex</h1>
         <SearchComponent handleChange={this.handleChange} />
         <CardList monsters={filteredMonsters} />
       </div>
